@@ -13,11 +13,11 @@ schema = {
     "IDENTIFICADOR MATRIZ/FILIAL": pl.Utf8,
     "NOME FANTASIA": pl.Utf8,
     "SITUAÇÃO CADASTRAL": pl.Utf8,
-    "DATA SITUAÇÃO CADASTRAL": pl.Utf8,  # Pode ser convertido para Date posteriormente
+    "DATA SITUAÇÃO CADASTRAL": pl.Utf8, 
     "MOTIVO SITUAÇÃO CADASTRAL": pl.Utf8,
     "NOME DA CIDADE NO EXTERIOR": pl.Utf8,
     "PAIS": pl.Utf8,
-    "DATA DE INÍCIO ATIVIDADE": pl.Utf8,  # Pode ser convertido para Date posteriormente
+    "DATA DE INÍCIO ATIVIDADE": pl.Utf8, 
     "CNAE FISCAL PRINCIPAL": pl.Utf8,
     "CNAE FISCAL SECUNDÁRIA": pl.Utf8,
     "TIPO DE LOGRADOURO": pl.Utf8,
@@ -36,7 +36,7 @@ schema = {
     "FAX": pl.Utf8,
     "CORREIO ELETRÔNICO": pl.Utf8,
     "SITUAÇÃO ESPECIAL": pl.Utf8,
-    "DATA DA SITUAÇÃO ESPECIAL": pl.Utf8  # Pode ser convertido para Date posteriormente
+    "DATA DA SITUAÇÃO ESPECIAL": pl.Utf8  
 }
 
 codigo_academia = "9313100" #Código do cnae para Atividades de condicionamento físico
