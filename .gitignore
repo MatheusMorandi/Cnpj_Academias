@@ -1,2 +1,2 @@
-data/processed/academias_filtradas.csv
-data/processed/municipios_filtrados.csv
+*.csv
+!data/raw/cnae.csv
